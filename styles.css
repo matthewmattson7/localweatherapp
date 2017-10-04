@@ -1,0 +1,24 @@
+html {
+   font-family: "Avenir Next", Helevetica, sans-serif;
+   text-align: center;
+ }
+body{
+ background: url('rain.gif') no-repeat 50% 50% fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+ }
+
+ h1, h2 {
+   font-weight: 300;
+   background-color: rgba(5,4,2,0.1);
+width:850px;
+height: 100%;
+margin-left:auto;
+margin-right:auto;
+padding: 15px;
+border-style: dashed;
+}
+ }
