@@ -2,8 +2,17 @@ html {
    font-family: "Avenir Next", Helevetica, sans-serif;
    text-align: center;
  }
+
+ div.transbox {
+  margin: 30px;
+  background-color: #8f8f8f;
+  border: 3px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
 body{
- background: url('rain.gif') no-repeat 50% 50% fixed;
+ background: url('atl.jpg') no-repeat 50% 50% fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -14,11 +23,12 @@ body{
  h1, h2 {
    font-weight: 300;
    background-color: rgba(5,4,2,0.1);
-width:850px;
+width:600px;
 height: 100%;
 margin-left:auto;
 margin-right:auto;
-padding: 15px;
-border-style: dashed;
+padding: 50px;
+border-style: solid;
+border-width: thin;
 }
  }
